@@ -6,7 +6,7 @@
 
 <script>
 export default {
-    name: 'Covid',
+    name: 'CuidadosCovid',
 
 }
 </script>

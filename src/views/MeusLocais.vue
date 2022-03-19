@@ -6,7 +6,7 @@
 
 <script>
 export default {
-    name: 'Locais',
+    name: 'MeusLocais',
 
 }
 </script>
