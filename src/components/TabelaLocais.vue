@@ -25,7 +25,7 @@
         text
         
       >
-        Descrição
+        Clique aqui
       </v-btn>
 
       <v-spacer></v-spacer>
