@@ -1,16 +1,12 @@
 <template>
     <v-container>
-        <h1>App Top Bar</h1>
+        <h1>Tabela Locais</h1>
     </v-container>
 </template>
 
 <script>
 export default {
-    name: 'AppTopBar',
+    name: 'TabelaLocais',
 
 }
 </script>
-
-<style scoped>
-
-</style>

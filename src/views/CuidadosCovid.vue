@@ -1,7 +1,7 @@
 <template>
-    <v-containe>
+    <v-container>
         <h1>Covid</h1>
-    </v-containe>
+    </v-container>
 </template>
 
 <script>

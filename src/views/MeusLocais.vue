@@ -1,12 +1,17 @@
 <template>
-    <v-containe>
+    <v-container>
         <h1>Locais</h1>
-    </v-containe>
+        <TabelaLocais/>
+    </v-container>
 </template>
 
 <script>
+import TabelaLocais from '../components/TabelaLocais.vue'
 export default {
     name: 'MeusLocais',
+    components: {
+        TabelaLocais
+    }
 
 }
 </script>
