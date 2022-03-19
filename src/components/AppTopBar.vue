@@ -1,11 +1,11 @@
 <template>
   <div class="app-top-bar">
-    <v-app-bar color="deep-purple accent-4" dense dark>
+    <v-app-bar color="yellow lighten-2 accent-4" dense dark>
       <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
 
       <v-toolbar-title>
         <router-link class="MeuInicio" to="/">
-          Carnaval na Pandemia
+          Menu dos Foliões
         </router-link>
       </v-toolbar-title>
     </v-app-bar>
@@ -61,5 +61,6 @@ export default {
 <style scoped>
 .app-top-bar a {
   text-decoration: none;
+  
 }
 </style>
