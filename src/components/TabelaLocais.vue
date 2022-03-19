@@ -6,7 +6,7 @@
     v-for="local of tabelalista " :key="local.photo">
 
     <v-img
-      src="local.photo"
+      :src="local.photo"
       height="200px"
     ></v-img>
 

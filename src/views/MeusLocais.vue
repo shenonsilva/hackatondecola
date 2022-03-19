@@ -1,6 +1,5 @@
 <template>
     <v-container>
-        <h1>Locais</h1>
         <TabelaLocais :tabelalista="tabelalista"/>
     </v-container>
 </template>
