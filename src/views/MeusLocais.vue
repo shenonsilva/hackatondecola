@@ -13,13 +13,15 @@ export default {
         TabelaLocais
         },
           data() {
-            
+            return {
+                TabelaLista : []
+            }
           },
 
         created() {
             fetch('https://it3-hbn-default-rtdb.firebaseio.com/carnaval.json')
             .then(response => response.json())
-            .then(json => {this.clubesLista = json;
+            .then(json => {this.TabelaLista = json;
         })  
 
     }
