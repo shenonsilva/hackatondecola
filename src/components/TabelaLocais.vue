@@ -2,7 +2,6 @@
     <v-container>
         <h1>Blocos Carnavalescos</h1>
         <v-card
-    class="mx-auto"
     max-width="344"
     v-for="local of TabelaLocais " :key="local.photo">
 
