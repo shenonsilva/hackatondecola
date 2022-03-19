@@ -3,7 +3,7 @@
         <h1>Blocos Carnavalescos</h1>
         <v-card
     max-width="344"
-    v-for="local of TabelaLocais " :key="local.photo">
+    v-for="local of tabelalista " :key="local.photo">
 
     <v-img
       src="local.photo"
@@ -15,7 +15,7 @@
     </v-card-title>
 
     <v-card-subtitle>
-      {{address}}
+      {{local.address}}
     </v-card-subtitle>
 
     <v-card-actions>
@@ -56,6 +56,12 @@ export default {
     data: () => ({
       show: false,
     }),
+    props: {
+    tabelalista: {
+      type: Array,
+      required: true
+    }
+  }
 
 }
 </script>
