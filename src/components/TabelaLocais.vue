@@ -1,12 +1,13 @@
 <template>
     <v-container>
-        <h1>Tabela Locais</h1>
+        <h1>Blocos Carnavalescos</h1>
         <v-card
     class="mx-auto"
     max-width="344"
-  >
+    v-for="local of TabelaLocais " :key="local.photo">
+
     <v-img
-      src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
+      src=""
       height="200px"
     ></v-img>
 
